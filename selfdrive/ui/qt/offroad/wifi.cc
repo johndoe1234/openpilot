@@ -48,7 +48,7 @@ WifiUI::WifiUI(QWidget *parent, int page_length) : QWidget(parent), networks_per
   ipv4 = new QLabel("");
   tethering_field->addWidget(ipv4);
   tethering_field->addWidget(new QLabel("Enable Tethering"));
-  
+
   Toggle* toggle_switch = new Toggle(this);
   toggle_switch->setFixedSize(150, 100);
   tethering_field->addWidget(toggle_switch);
